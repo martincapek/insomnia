@@ -1,0 +1,21 @@
+_id: req_wrk_20f93ebb28444641b88bf85c5a6f7fd728f3cff21
+type: Request
+parentId: wrk_20f93ebb28444641b88bf85c5a6f7fd7
+modified: 1691052423881
+created: 1691052423881
+url: "{{ base_url }}/v1/portal/insurance/cases/{{ caseId }}/quotations/{{ id }}"
+name: /v1/portal/insurance/cases/{caseId}/quotations/{id}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1691052423881
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

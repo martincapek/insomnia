@@ -1,0 +1,30 @@
+_id: req_wrk_20f93ebb28444641b88bf85c5a6f7fd77e4b076a
+type: Request
+parentId: wrk_20f93ebb28444641b88bf85c5a6f7fd7
+modified: 1691052423861
+created: 1691052423861
+url: "{{ base_url }}/v1/notifications/glass-pipeline-output"
+name: /v1/notifications/glass-pipeline-output
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "message": {
+        "data": "string"
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1691052423861
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,31 @@
+_id: req_wrk_20f93ebb28444641b88bf85c5a6f7fd75757b3954
+type: Request
+parentId: wrk_20f93ebb28444641b88bf85c5a6f7fd7
+modified: 1691052423869
+created: 1691052423869
+url: "{{ base_url }}/v1/portal/{{ tenantType }}/cases/{{ caseId }}/requests/{{
+  requestId }}/attachments/upload"
+name: /v1/portal/{tenantType}/cases/{caseId}/requests/{requestId}/attachments/upload
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "type": "string",
+      "content": "string",
+      "fileName": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1691052423869
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,24 @@
+_id: req_wrk_20f93ebb28444641b88bf85c5a6f7fd76059d61d
+type: Request
+parentId: wrk_20f93ebb28444641b88bf85c5a6f7fd7
+modified: 1691052423898
+created: 1691052423898
+url: "{{ base_url }}/v1/anonymous/case"
+name: /v1/anonymous/case
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: information-request
+    disabled: true
+    value: string
+authentication: {}
+metaSortKey: -1691052423898
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,24 @@
+_id: req_wrk_20f93ebb28444641b88bf85c5a6f7fd7aa57793e
+type: Request
+parentId: wrk_20f93ebb28444641b88bf85c5a6f7fd7
+modified: 1691052423863
+created: 1691052423863
+url: "{{ base_url }}/v1/portal/garage/profile"
+name: /v1/portal/garage/profile
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1691052423863
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

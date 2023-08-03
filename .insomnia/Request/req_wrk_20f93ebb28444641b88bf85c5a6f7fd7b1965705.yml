@@ -1,0 +1,21 @@
+_id: req_wrk_20f93ebb28444641b88bf85c5a6f7fd7b1965705
+type: Request
+parentId: wrk_20f93ebb28444641b88bf85c5a6f7fd7
+modified: 1691052423882
+created: 1691052423882
+url: "{{ base_url }}/v1/portal/insurance/garages"
+name: /v1/portal/insurance/garages
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1691052423882
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

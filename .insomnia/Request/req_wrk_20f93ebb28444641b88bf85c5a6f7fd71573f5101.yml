@@ -1,0 +1,34 @@
+_id: req_wrk_20f93ebb28444641b88bf85c5a6f7fd71573f5101
+type: Request
+parentId: wrk_20f93ebb28444641b88bf85c5a6f7fd7
+modified: 1691052423868
+created: 1691052423868
+url: "{{ base_url }}/v1/portal/{{ tenantType }}/cases/{{ caseId }}/requests/{{
+  requestId }}/attachments/{{ attachmentId }}/labels"
+name: /v1/portal/{tenantType}/cases/{caseId}/requests/{requestId}/attachments/{attachmentId}/labels
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "geometry": {
+        "type": {},
+        "coordinates": {}
+      },
+      "damageType": "string",
+      "color": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1691052423868
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

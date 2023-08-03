@@ -1,0 +1,33 @@
+_id: req_wrk_20f93ebb28444641b88bf85c5a6f7fd77dc254f21
+type: Request
+parentId: wrk_20f93ebb28444641b88bf85c5a6f7fd7
+modified: 1691052423876
+created: 1691052423876
+url: "{{ base_url }}/v1/portal/insurance/information-request-dashboard"
+name: /v1/portal/insurance/information-request-dashboard
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: state
+    disabled: true
+    value: string
+  - name: licensePlateSubstring
+    disabled: true
+    value: string
+headers:
+  - name: Branch
+    disabled: true
+    value: string
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1691052423876
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

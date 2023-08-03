@@ -1,0 +1,21 @@
+_id: req_wrk_20f93ebb28444641b88bf85c5a6f7fd79f74f8d01
+type: Request
+parentId: wrk_20f93ebb28444641b88bf85c5a6f7fd7
+modified: 1691052423871
+created: 1691052423871
+url: "{{ base_url }}/v1/portal/{{ tenantType }}/requests/{{ requestId }}/labels"
+name: /v1/portal/{tenantType}/requests/{requestId}/labels
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1691052423871
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

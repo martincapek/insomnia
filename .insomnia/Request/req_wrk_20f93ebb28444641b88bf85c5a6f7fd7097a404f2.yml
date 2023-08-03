@@ -1,0 +1,35 @@
+_id: req_wrk_20f93ebb28444641b88bf85c5a6f7fd7097a404f2
+type: Request
+parentId: wrk_20f93ebb28444641b88bf85c5a6f7fd7
+modified: 1691052423885
+created: 1691052423885
+url: "{{ base_url }}/v1/portal/insurance/cases"
+name: /v1/portal/insurance/cases
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "type": "string",
+      "informationRequestType": {}
+    }
+parameters: []
+headers:
+  - name: Branch
+    disabled: true
+    value: string
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1691052423885
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

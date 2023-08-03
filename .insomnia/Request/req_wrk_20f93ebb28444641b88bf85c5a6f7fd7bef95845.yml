@@ -1,0 +1,30 @@
+_id: req_wrk_20f93ebb28444641b88bf85c5a6f7fd7bef95845
+type: Request
+parentId: wrk_20f93ebb28444641b88bf85c5a6f7fd7
+modified: 1691052423881
+created: 1691052423881
+url: "{{ base_url }}/v1/portal/insurance/email-templates"
+name: /v1/portal/insurance/email-templates
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: type
+    disabled: true
+    value: string
+headers:
+  - name: Branch
+    disabled: true
+    value: string
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1691052423881
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

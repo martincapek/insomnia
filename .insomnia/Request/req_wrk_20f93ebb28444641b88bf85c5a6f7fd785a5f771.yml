@@ -1,0 +1,24 @@
+_id: req_wrk_20f93ebb28444641b88bf85c5a6f7fd785a5f771
+type: Request
+parentId: wrk_20f93ebb28444641b88bf85c5a6f7fd7
+modified: 1691052423893
+created: 1691052423893
+url: "{{ base_url }}/v1/mobile/users/me"
+name: /v1/mobile/users/me
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1691052423893
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: req_wrk_20f93ebb28444641b88bf85c5a6f7fd799ca44861
+type: Request
+parentId: wrk_20f93ebb28444641b88bf85c5a6f7fd7
+modified: 1691052423862
+created: 1691052423862
+url: "{{ base_url }}/v1/portal/insurance/profile"
+name: /v1/portal/insurance/profile
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "firstName": "string",
+      "lastName": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1691052423862
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

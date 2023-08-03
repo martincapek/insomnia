@@ -1,0 +1,27 @@
+_id: req_wrk_20f93ebb28444641b88bf85c5a6f7fd780866d48
+type: Request
+parentId: wrk_20f93ebb28444641b88bf85c5a6f7fd7
+modified: 1691052423892
+created: 1691052423892
+url: "{{ base_url }}/v1/mobile/insurances"
+name: /v1/mobile/insurances
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: country
+    disabled: false
+    value: string
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1691052423892
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

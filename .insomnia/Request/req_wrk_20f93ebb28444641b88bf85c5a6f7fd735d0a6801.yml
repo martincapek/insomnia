@@ -1,0 +1,29 @@
+_id: req_wrk_20f93ebb28444641b88bf85c5a6f7fd735d0a6801
+type: Request
+parentId: wrk_20f93ebb28444641b88bf85c5a6f7fd7
+modified: 1691052423870
+created: 1691052423870
+url: "{{ base_url }}/v1/portal/{{ tenantType }}/cases/{{ caseId }}/requests/{{
+  requestId }}/submit"
+name: /v1/portal/{tenantType}/cases/{caseId}/requests/{requestId}/submit
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "language": {}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1691052423870
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

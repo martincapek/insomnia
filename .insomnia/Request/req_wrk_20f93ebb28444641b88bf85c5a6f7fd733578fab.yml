@@ -1,0 +1,34 @@
+_id: req_wrk_20f93ebb28444641b88bf85c5a6f7fd733578fab
+type: Request
+parentId: wrk_20f93ebb28444641b88bf85c5a6f7fd7
+modified: 1691052423895
+created: 1691052423895
+url: "{{ base_url }}/v1/anonymous/labels"
+name: /v1/anonymous/labels
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "labelData": {
+        "damageType": "string",
+        "color": "string"
+      }
+    }
+parameters: []
+headers:
+  - name: information-request
+    disabled: true
+    value: string
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1691052423895
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

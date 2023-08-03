@@ -1,0 +1,38 @@
+_id: req_wrk_20f93ebb28444641b88bf85c5a6f7fd77879df30
+type: Request
+parentId: wrk_20f93ebb28444641b88bf85c5a6f7fd7
+modified: 1691052423884
+created: 1691052423884
+url: "{{ base_url }}/v1/portal/insurance/cases/{{ caseId }}/reviews"
+name: /v1/portal/insurance/cases/{caseId}/reviews
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "goodImageQuality": true,
+      "labelsAccurate": true,
+      "repairActionAccurate": true,
+      "validInvoiceRange": true,
+      "validCostEstimation": true
+    }
+parameters: []
+headers:
+  - name: Branch
+    disabled: true
+    value: string
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1691052423884
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

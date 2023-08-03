@@ -1,0 +1,33 @@
+_id: req_wrk_20f93ebb28444641b88bf85c5a6f7fd73ea98054
+type: Request
+parentId: wrk_20f93ebb28444641b88bf85c5a6f7fd7
+modified: 1691052423897
+created: 1691052423897
+url: "{{ base_url }}/v1/anonymous/attachments"
+name: /v1/anonymous/attachments
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: labelId
+    disabled: true
+    value: string
+  - name: type
+    disabled: true
+    value: string
+  - name: content
+    disabled: true
+    value: string
+headers:
+  - name: information-request
+    disabled: true
+    value: string
+authentication: {}
+metaSortKey: -1691052423897
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

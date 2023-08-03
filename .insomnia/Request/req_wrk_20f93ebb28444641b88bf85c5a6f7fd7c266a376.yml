@@ -1,0 +1,21 @@
+_id: req_wrk_20f93ebb28444641b88bf85c5a6f7fd7c266a376
+type: Request
+parentId: wrk_20f93ebb28444641b88bf85c5a6f7fd7
+modified: 1691052423902
+created: 1691052423902
+url: "{{ base_url }}/health"
+name: /health
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1691052423902
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

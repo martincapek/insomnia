@@ -1,0 +1,25 @@
+_id: req_wrk_20f93ebb28444641b88bf85c5a6f7fd746d527c11
+type: Request
+parentId: wrk_20f93ebb28444641b88bf85c5a6f7fd7
+modified: 1691052423872
+created: 1691052423872
+url: "{{ base_url }}/v1/portal/{{ tenantType }}/requests/{{ requestId
+  }}/attachments/{{ attachmentId }}"
+name: /v1/portal/{tenantType}/requests/{requestId}/attachments/{attachmentId}
+description: ""
+method: POST
+body: {}
+parameters:
+  - name: action
+    disabled: false
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1691052423872
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

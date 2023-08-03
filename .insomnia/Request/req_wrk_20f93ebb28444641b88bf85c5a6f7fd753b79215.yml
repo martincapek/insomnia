@@ -1,0 +1,24 @@
+_id: req_wrk_20f93ebb28444641b88bf85c5a6f7fd753b79215
+type: Request
+parentId: wrk_20f93ebb28444641b88bf85c5a6f7fd7
+modified: 1691052423896
+created: 1691052423896
+url: "{{ base_url }}/v1/anonymous/attachments/{{ id }}"
+name: /v1/anonymous/attachments/{id}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: information-request
+    disabled: true
+    value: string
+authentication: {}
+metaSortKey: -1691052423896
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

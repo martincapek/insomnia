@@ -1,0 +1,28 @@
+_id: req_wrk_20f93ebb28444641b88bf85c5a6f7fd79f90636e
+type: Request
+parentId: wrk_20f93ebb28444641b88bf85c5a6f7fd7
+modified: 1691052423859
+created: 1691052423859
+url: "{{ base_url }}/noimotor-cost-estimator/{{ requestId }}/quotations/{{
+  quotationId }}/gt-motive-link"
+name: /noimotor-cost-estimator/{requestId}/quotations/{quotationId}/gt-motive-link
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Branch
+    disabled: true
+    value: string
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1691052423859
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
