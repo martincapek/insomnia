@@ -1,0 +1,45 @@
+_id: req_wrk_20f93ebb28444641b88bf85c5a6f7fd7050aa47d
+type: Request
+parentId: wrk_20f93ebb28444641b88bf85c5a6f7fd7
+modified: 1691052423894
+created: 1691052423894
+url: "{{ base_url }}/v1/anonymous/attachments/{{ attachmentId }}/labels/{{
+  labelId }}"
+name: /v1/anonymous/attachments/{attachmentId}/labels/{labelId}
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "attachmentToLabelData": {
+        "geometry": {
+          "type": {},
+          "coordinates": [
+            {}
+          ]
+        },
+        "properties": {
+          "color": "string",
+          "labelId": "string",
+          "userGenerated": true
+        },
+        "type": "GeometryLabel"
+      }
+    }
+parameters: []
+headers:
+  - name: information-request
+    disabled: true
+    value: string
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1691052423894
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
